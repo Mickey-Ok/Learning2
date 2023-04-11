@@ -1,0 +1,23 @@
+
+	@media (min-width: 768px) {
+	  html {
+	    font-size: 16px;
+		background-color: rgb(57, 114, 160);
+	  }
+	}
+
+	.search-bar{
+		max-width: 500px;
+		width: 100%;
+	}
+	form{
+		width: 100%;
+	}
+	.top{
+		padding-top: 5vh;
+		padding-left: 145vh;
+		background-color: rgba(228, 209, 221, 0.788);
+		height: 6em;
+		position: fixed;
+		width: 100%;
+	}

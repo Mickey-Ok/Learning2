@@ -1,0 +1,172 @@
+{% load static %}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{% static 'css/booklist.css' %}">
+<!-- <link rel="stylesheet" href="{% static 'css/accountheader.css' %}"> -->
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+<!-- Header -->
+
+	<nav class="moon">
+
+		<!-- <a class="btn btn-outline-primary" href="{% url 'home' %}">Home</a> -->
+		<!-- <a class="btn btn-outline-primary" href="{% url 'accounts' %}">Books</a> -->
+		<a class="btn btn-outline-primary" href="{% url 'contents' %}">Stories</a>
+		<a class="btn btn-outline-primary" href="{% url 'logout' %}">Log Out</a>
+		
+	  </nav>
+
+<body>
+
+    <div class="list-group">
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action">
+            
+                <img src="{% static 'images/biography.png' %}" alt=""class="images">
+              
+                    <h2>Biography</h2>
+                    <p>
+                        A genre of non-fiction that tells the life story of a real person.
+                     <br>
+                     <br>
+                     "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+                     <br>
+                     <br>
+                     "I am not a saint, unless you think of a saint as a sinner who keeps on trying." - Nelson Mandela
+                    </p>
+               
+            
+          
+            
+        </a>
+      
+      
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-primary">
+            <img src="{% static 'images/fantasy.png' %}" alt=""class="images">
+            <h2>Fantasy..</h2>
+            <p>
+                A genre of fiction that uses magic or other supernatural elements as a main plot element.
+             <br>
+             <br>
+             "Fantasy is hardly an escape from reality. It's a way of understanding it." - Lloyd Alexander
+             <br>
+             <br>
+             "Not all who wander are lost." - J.R.R. Tolkien
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-secondary">
+            <img src="{% static 'images/folklore.jpg' %}" alt=""class="images">
+            <h2>Folk lore...</h2>
+            <p>
+                A genre of literature that encompasses myths, legends, and other traditional stories and beliefs of a particular culture.
+             <br>
+             <br>
+             "A man who is not a father to his children is not a real man." - Yoruba Proverb
+             <br>
+             <br>
+             "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten." - Neil Gaiman
+            
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-success">
+            <img src="{% static 'images/historicalfiction.png' %}" alt=""class="images">
+            <h2>Historical Fiction....</h2>
+            <p>
+                A genre of fiction that is set in a particular time period in history and often incorporates real events or people.
+    
+             <br>
+             <br>
+             "History, like love, is so apt to surround her heroes with an atmosphere of imaginary brightness." - James Fenimore Cooper
+             <br>
+             <br>
+             "The past is never dead. It's not even past." - William Faulkner
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-danger">
+            <img src="{% static 'images/horror.png' %}" alt=""class="images">
+            <h2>Horror..</h2>
+                <p>
+                    A genre of fiction that seeks to scare or frighten the reader.
+                 <br>
+                 <br>
+                 "The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown." - H.P. Lovecraft
+                 <br>
+                 <br>
+                 "I have seen the dark universe yawning, where the black planets roll without aim, where they roll in their horror unheeded, without knowledge or lustre or name." - H.P. Lovecraft
+    
+                </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-warning">
+            <img src="{% static 'images/mystery.png' %}" alt=""class="images">
+          <h2>Mystery</h2>  
+            <p>
+                A genre of fiction that involves a crime, puzzle, or problem that must be solved.
+                <br>
+                <br>
+                "Every murderer is probably somebody's old friend." - Agatha Christie
+                <br>
+                <br>
+                "Murder is always a mistake. One should never do anything that one cannot talk about after dinner." - Oscar Wilde
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-info">
+            <img src="{% static 'images/poetry.png' %}" alt=""class="images">
+            <h2>Poetry...</h2>
+            <p>
+                A genre of literature that uses language to evoke emotion and express ideas.
+             <br>
+             <br>
+             "Two roads diverged in a wood, and I - I took the one less traveled by, and that has made all the difference." - Robert Frost
+             <br>
+             <br>
+             "Poetry is the spontaneous overflow of powerful feelings: it takes its origin from emotion recollected in tranquility." - William Wordsworth
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-light">
+            <img src="{% static 'images/romance.png' %}" alt=""class="images">
+            <h2>Romance...</h2>
+            <p>
+                A genre of fiction that focuses on romantic relationships and their development.
+                <br>
+                <br>
+                "A successful marriage requires falling in love many times, always with the same person." - Mignon McLaughlin
+                <br>
+                <br>
+                "Love looks not with the eyes, but with the mind, and therefore is winged Cupid painted blind." - William Shakespeare
+            </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-dark">
+            <img src="{% static 'images/sciencefiction.png' %}" alt=""class="images">
+            <h2>Science Fiction...</h2>
+                <p>
+                    A genre of fiction that deals with imaginative and futuristic concepts.
+                 <br>
+                 <br>
+                 "Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke
+                 <br>
+                 <br>
+                 "The best science fiction has always been about holding up a mirror to society." - Ken Liu
+                </p>
+        </a>
+        <a href="{% url 'contents' %}" class="list-group-item list-group-item-action list-group-item-warning">
+            <img src="{% static 'images/selfhelp.png' %}" alt=""class="images">
+            <h2>Self-Help</h2>
+            <p>
+                A genre of non-fiction that offers advice or guidance on personal growth or self-improvement.
+             <br>
+             <br>
+             "The secret of getting ahead is getting started." - Mark Twain
+             <br>
+             <br>
+             "We are what we repeatedly do. Excellence, then, is not an act, but a habit." - Aristotle
+            </p>
+        </a>
+       
+    </div>
+    
+</body>
+{% include 'snippets/footer.html' %} 
+
+
+
+
+  

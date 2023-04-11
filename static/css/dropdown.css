@@ -1,0 +1,208 @@
+/* .sidebar {
+    width: 200px;
+    background-color: #f5f5f5;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    position: relative;
+  }
+  
+  li:hover {
+    background-color: #ccc;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  li:hover .dropdown-menu {
+    display: block;
+  } */
+ 
+  
+ 
+      @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+      *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+      }
+      body{
+        background-image: linear-gradient(to right,magenta,cyan);
+      }
+      nav{
+        width:90%;
+        height:710px;
+        margin:25px auto;
+        background: white;
+        border-radius: 5px;
+        overflow:hidden;
+      }
+      aside{
+        width: 20%;
+        height: 100%;
+        background: #000d33;
+        float:left;
+      }
+      aside h1 img{
+        width:51px;
+        float:left;
+      }
+      aside h1 span{
+        font-size: 30px;
+        line-height: 50px;
+        margin-left: 6px;
+        color:white;
+      }
+      aside ul{
+        padding:5px 0 5px 30px;
+      }
+      aside ul li{
+        list-style: none;
+        font-weight: bold;
+        margin: 20px auto;
+        position: relative;
+        overflow: hidden;
+        /* max-height: 35px; */
+        line-height: 35px;
+        transition: 1s;
+        text-transform: capitalize;
+      }
+      aside ul:first-child{
+        max-height: 50px;
+      }
+      aside ul li:hover{
+        background: #d1d1d173;
+      }
+      aside ul:first-child li:hover{
+        background: none;
+      }
+      aside ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      aside ul li a i{
+        width:30px;
+        padding: 5px;
+        margin-right: 10px;
+      }
+      aside ul li a i.fa-angle-right{
+        position: absolute;
+        right: 0;
+        top: 5px;
+        transition: 0.5s;
+      }
+      aside ul li >ul{
+        padding: 1px;
+        margin: 0 0 0 20px;
+
+      }
+      aside ul li >ul li{
+        height: 25px;
+        line-height: 20px;
+        font-size: 15px;
+        padding: 1px 1px 1px 20px;
+        font-weight: normal;
+        border-left:1px solid #fff0f0;
+        margin:5px
+        /* color: #fff0f0;
+        cursor:pointer; */
+      }
+      aside ul li>ul li a,
+      aside ul li:target>ul li a{
+        background: transparent;
+      }
+      aside ul li:target{
+        max-height:300px;
+        border-radius: 5px 0px 0px 5px;
+      }
+      aside ul li:taret a {
+        color: #444;
+        display: inherit;
+        background: white;
+      }
+      aside ul li:target a i.fa-angle-right{
+        transform: rotate(90deg);
+        top:10px;
+      }
+      aside ul li:target:hover{
+        background:initial;
+      }
+      header{
+        width:80%;
+        height: 100%;
+        float: left;
+        font-family: sans-serif;
+      }
+      header .banner{
+        width:90%;
+        height:80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        color: #333;
+        position: relative;
+      }
+      header>p{
+        text-align:center;
+      }
+      header .banner div,
+      header .banner img{
+        width: 60%;
+      }
+      header .banner div h1{
+        font-size: 100px;
+        text-align: center;
+        color: #333;
+        font-weight: normal;
+      }
+      header .banner div p{
+        line-height:27px;
+        padding: 2px 0px 2px 50px;
+      }
+      .banner h6{
+        position:absolute;
+        width: 520px;
+        height: 520px;
+        left: 50%;
+        transform: rotateZ(0deg);
+        animation:rotyate 10s linear infinite;
+        border-radius: 50%;
+        border:1px solid #f7f7f7;
+      }
+      .banner h6:before{
+        content: '';
+        position: absolute;
+        left:172px;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(purple,deeppink);
+        border-radius: 30px 30px 30px 0px;
+        transform: rotate(25deg);
+      }
+      @keyframes rotate {
+        to{
+          transform: rotateZ('360deg');
+        }
+      }

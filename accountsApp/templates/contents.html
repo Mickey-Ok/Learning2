@@ -1,0 +1,855 @@
+{% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+<link rel="stylesheet" href="{% static 'css/contents.css' %}">
+
+	<nav class="moon">
+
+		<!-- <a class="btn btn-outline-primary" href="{% url 'home' %}">Home</a> -->
+		<a class="btn btn-outline-primary" href="{% url 'accounts' %}">Genres</a>
+		<!-- <a class="btn btn-outline-primary" href="{% url 'contents' %}">Journals</a> -->
+		<a class="btn btn-outline-primary" href="{% url 'logout' %}">Log Out</a>
+		
+	  </nav>
+
+  <body>
+    <ul>
+        <li>Biography
+           
+            
+            <ul style="background-image: url('../static/images/biography.png'); background-size: cover;">
+                <li>'Steve Jobs' by Walter Isaacson
+                   
+                    <div class="sub-content"> 
+                        
+                        <p><h2>'Steve Jobs' by Walter Isaacson</h2>
+                            This biography is a comprehensive look at the life of Steve Jobs, the co-founder of Apple Inc. It covers his early life, including his adoption, his experimentation with drugs, and his travels to India. The book then delves into Jobs' work with Apple, including his role in the development of the Macintosh computer, his ousting from the company, and his return to lead it to great success with products like the iPod, iPhone, and iPad. The book also explores Jobs' personal life, including his relationships with his family, his struggles with health issues, and his impact on the technology industry. Throughout the book, Isaacson paints a complex portrait of Jobs, showcasing both his brilliance and his flaws. 
+                    </p></div>
+                </li>
+                <li>'Malala Yousafzai' by Christina Lamb
+                   <div class="sub-content">
+                    <p>
+                        <h2>'Malala Yousafzai' by Christina Lamb</h2>
+                        This book tells the inspiring story of Malala Yousafzai, a young Pakistani girl who stood up against the Taliban and fought for girls' education. The book covers her childhood in the Swat Valley of Pakistan, her activism with her father, and her eventual assassination attempt by the Taliban. It also covers her recovery and subsequent work as a global advocate for girls' education, including her Nobel Peace Prize win in 2014. Throughout the book, Lamb showcases Yousafzai's determination and bravery, while also providing insight into the broader issues facing girls in Pakistan and around the world.
+                    </p>
+                   </div>
+                </li>
+                <li>Albert Eistein' by Walter Isaacson
+                    <div class="sub-content">
+                        <h2>'Albert Eistein' by Walter Isaacson</h2>
+                        <p>
+                            This biography explores the life and work of Albert Einstein, one of the most influential scientists of the 20th century. The book covers his childhood in Germany, his work as a patent clerk, and his eventual breakthroughs in physics, including the theory of relativity and the equation E=mc². It also covers his personal life, including his marriages and his involvement in politics, as well as his impact on science and culture. Throughout the book, Isaacson paints a nuanced portrait of Einstein, showcasing both his brilliance as a scientist and his complex personal life.
+                        </p>
+                       </div>
+                </li>
+                <li>'Maya Angelou' by Elizabeth Alexander
+                    <div class="sub-content">
+                        
+                        <h2>"Maya Angelou" by Elizabeth Alexander:</h2>
+                        <p>
+                            This biography tells the life story of Maya Angelou, a celebrated writer, poet, and civil rights activist. The book covers her early life in Arkansas, her work as a dancer and singer, and her eventual success as a writer with works like "I Know Why the Caged Bird Sings." It also covers her involvement in the civil rights movement, her friendships with figures like Malcolm X and Martin Luther King Jr., and her impact on American culture. Throughout the book, Alexander showcases Angelou's resilience and creativity, as well as her commitment to justice and equality.
+                        </p>
+        
+                    </div>
+                </li>
+                <li>'Nelson Mandela' by Anthony Sampson
+                    <div class="sub-content">
+                        <h2>"Nelson Mandela" by Anthony Sampson:</h2>
+                        <p>
+                            This biography explores the life of Nelson Mandela, the South African anti-apartheid revolutionary who became the country's first black president. The book covers Mandela's early life, his involvement in the African National Congress, his imprisonment on Robben Island, and his eventual release and rise to power. It also covers his work as a global advocate for human rights, including his efforts to end apartheid in South Africa and his involvement in the creation of the Truth and Reconciliation Commission. Throughout the book, Sampson showcases Mandela's leadership and vision, as well as his personal struggles and triumphs.
+                        </p>
+                    </div>
+                </li>
+             
+              </ul>
+              
+          
+         
+        </li>
+        <br>
+        <li>Fantasy
+            <ul style="background-image: url('../static/images/fantasy.png');background-size: cover;">
+                <li>The Enchanted Forest
+                    <div class="sub-content">
+                        <h2> The Enchanted Forest:</h2> 
+                        <p>
+                            The Enchanted Forest is a children's fantasy book written by Enid Blyton, published in 1939. The book follows the adventures of three siblings, Jack, Peggy, and Mike, as they explore the magical and mysterious forest that lies beyond their garden. The forest is inhabited by a host of magical creatures, including fairies, gnomes, and talking animals. The children make friends with a fairy named Silky, who helps them navigate the forest and introduces them to her fairy friends. Together, they embark on a series of adventures, including rescuing a kidnapped gnome, defeating an evil witch, and discovering a secret underground kingdom. The Enchanted Forest is a delightful and whimsical tale that captures the imagination of children and adults alike.   
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    The Dragon's Lair
+                    <div class="sub-content">
+                        <h2>The Dragon's Lair:</h2> 
+                        <p>
+                            The Dragon's Lair is a novel by Elizabeth Haydon, published in 2003. 
+The book is set in the world of Rhapsody, a land of magic and mythical creatures. 
+The story follows the adventures of Rhapsody, a singer with magical powers, and her 
+companions, Achmed and Grunthor. They embark on a quest to find the lair of the dragon, 
+which is believed to contain a powerful artifact that could help them defeat the evil Lord F'dor. 
+Along the way, they encounter a host of challenges and obstacles, including treacherous mountains, 
+dangerous forests, and fierce battles with monsters and other creatures. The Dragon's Lair is a thrilling 
+and exciting adventure story that is sure to captivate readers of all ages.
+                        </p>           
+                    </div>
+                </li>
+                <li>
+                    The Magic Ring
+                    <div class="sub-content">
+                        <h2>  The Magic Ring:</h2> 
+                        <p>
+                            The Magic Ring is a children's book by Enid Blyton, published in 1936. The story follows 
+the adventures of two siblings, Jack and Lucy, who discover a magical ring that can transport 
+them to different places and times. With the help of the ring, they embark on a series of adventures, 
+including visiting a pirate ship, exploring an enchanted garden, and meeting a group of friendly giants. 
+However, they soon discover that the ring is coveted by an evil witch who will stop at nothing to get her 
+hands on it. The Magic Ring is a delightful and imaginative tale that showcases Blyton's talent for creating
+ fantastical worlds and memorable characters.
+                        </p>
+    
+                    </div>
+                </li>
+                <li>
+                    The Lost City
+                    <div class="sub-content">
+                        <h2>The Lost City:</h2> 
+                        <p>
+                            The Lost City is a novel by Clive Cussler, published in 2004. The book is part of the popular Dirk Pitt 
+                            series and follows the adventures of Pitt and his team as they search for a lost city in the Amazon rainforest. 
+                            The city is believed to contain a powerful artifact that could change the course of history, and Pitt and his 
+                            team must navigate treacherous rivers, dense jungle, and dangerous wildlife to find it. Along the way, they encounter
+                             a ruthless drug lord, an ancient tribe with a mysterious connection to the lost city, and a series of deadly traps 
+                            and obstacles. The Lost City is a thrilling and action-packed adventure story that is sure to keep readers on the edge of their seats.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    The Witch's Curse
+                    <div class="sub-content">
+                        <h2>The Witch's curse:</h2> 
+                        <p>
+                            The Witch's Curse is a children's book by Enid Blyton, published in 1941. The story follows the 
+                            adventures of three siblings, Sally, Jim, and Anna, who discover a mysterious old house in the woods.
+                             The house is inhabited by an eccentric old woman who claims to be a witch and warns the children to 
+                            stay away. However, they soon discover that the witch's curse has befallen their friend, Tom, and 
+                            they must embark on a dangerous quest to break the curse and save him. Along the way, they encounter 
+                            a host of magical creatures, including talking cats and friendly dragons, and must use all their wits
+                             and courage to overcome the challenges they face. The Witch's Curse is a charming and engaging tale 
+                            that showcases Blyton's gift for creating magical worlds and memorable characters.
+                        </p>                 
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>Folklore
+            <ul style="background-image: url('../static/images/luandamagere.png');background-size: cover;">
+                <li>
+                    Luanda Magere
+                    <div class="sub-content">
+                       
+                            <h2>Luanda Magere</h2>
+                            <p>
+                                According to Kenyan folklore, Luanda Magere was a legendary warrior who was believed to be invincible 
+                                due to the magic of his wife, who had made him "shiny" by covering his body in a special oil. 
+                                No weapon could penetrate his skin, and he was able to single-handedly defeat entire armies. 
+                                However, Luanda Magere had a secret weakness - his shadow. If his shadow was pierced by an enemy spear,
+                                he would be vulnerable and could be killed. This secret was eventually discovered by a clever warrior 
+                                from a rival tribe, who managed to pierce Luanda Magere's shadow with a specially crafted spear, killing 
+                                him and ending his reign of invincibility.
+                            </p>
+                                     
+                    </div>
+                </li>
+                <li>Chaka Zulu
+                    <div class="sub-content">
+                        <h2>Chaka Zulu </h2>
+                        <p>
+                            Chaka Zulu was a powerful Zulu king who lived in South Africa during the early 19th century. 
+                            He is often regarded as a hero and symbol of African resistance against colonialism, 
+                            due to his military prowess and strategic thinking. Chaka was born into a royal family, 
+                            but was forced to flee when his father was murdered. He spent many years in exile, 
+                            where he developed his military skills and formed alliances with neighboring tribes. 
+                            When he returned to his homeland, he began a campaign of conquest that eventually brought most of 
+                            southern Africa under his control. Chaka is known for his brutal tactics, which included the mass 
+                            killing of his own people as a means of maintaining order and discipline in his army.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    Anansi the Spider
+                    <div class="sub-content">
+                        <h2>Anansi the Spider</h2>
+                        <p>
+                            Anansi is a trickster figure in West African folklore who is often depicted as a spider. 
+                            He is known for his cunning and ability to outsmart his enemies, often through elaborate schemes 
+                            and ruses. In one story, Anansi wants to marry the beautiful daughter of the Sky God, but knows 
+                            he is not powerful enough to win her hand in marriage. So, he sets out to trick the Sky God into 
+                            giving him powers that will make him more attractive to his daughter. Anansi does this by bringing a 
+                            series of gifts to the Sky God, each one more impressive than the last, until finally the Sky God is 
+                            impressed enough to grant Anansi the power of speech, making him a more desirable suitor for his daughter.
+                        </p>            
+                    </div>
+                </li>
+                <li>
+                    Queen Amina of Zazzau
+                    <div class="sub-content">
+                        <h2> Queen Amina of Zazzau </h2>
+                            <p>
+                            Queen Amina was a legendary warrior queen who ruled over the kingdom of Zazzau in what is now northern 
+                            Nigeria during the 16th century. She was known for her strength, bravery, and military leadership, and 
+                            was instrumental in expanding the kingdom of Zazzau through conquest and diplomacy. According to legend,
+                            Amina was the first woman to wear a turban and wield a sword in battle, and would lead her troops from 
+                            the front lines. She is also said to have been a skilled diplomat, forging alliances with neighboring 
+                            kingdoms through marriage and political maneuvering. Amina's legacy as a powerful female ruler and 
+                            warrior has made her a symbol of women's empowerment in Nigeria and beyond. 
+                            </p>
+    
+                    </div>
+                </li>
+                <li>
+                    Mansa Musa
+                    <div class="sub-content">
+                        <h2>Mansa Musa </h2>
+                        <p>
+                            Mansa Musa was the tenth emperor of the Mali Empire, which existed in what is now West Africa 
+                            during the 14th century. He is often regarded as one of the wealthiest people in history, 
+                            due to his control of the region's gold mines. Mansa Musa is known for his patronage of scholarship 
+                            and the arts, and for his pilgrimage to Mecca in 1324, which brought the Mali Empire into contact with 
+                            the wider Islamic world. According to legend, Mansa Musa's procession to Mecca was so lavish that it 
+                            included 60,000 people and 80 camels carrying over 4,000 pounds of gold. Mansa Musa's wealth and patronage 
+                            helped to establish Mali as a center  
+                        </p>
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>Historical Fiction
+            <ul style="background-image: url('../static/images/historicalfiction.png');background-size: cover;">
+                <li>
+                    "The Book Thief" by Markus Zusak:
+                    <div class="sub-content">
+                       
+                        <h2>"The Book Thief" by Markus Zusak:</h2>
+                        <p>
+                           
+The Book Thief by Markus Zusak is a historical novel published in 2005.
+The book is set in Nazi Germany during World War II and follows the life of
+a young girl named Liesel Meminger, who is sent to live with foster parents 
+in a small town outside Munich. As she settles into her new life, she becomes 
+fascinated with books and begins to steal them. She also develops a friendship
+with Max, a Jewish refugee who her foster parents are hiding in their basement. 
+The story is narrated by Death, who offers a unique perspective on the war and its
+impact on ordinary people. The Book Thief is a moving and poignant novel that explores
+the themes of love, loss, and the power of words.
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"All the Light We Cannot See" by Anthony Doerr:
+                    <div class="sub-content">
+                        <h2>   "All the Light We Cannot See" by Anthony Doerr:</h2> 
+                        <p>
+                            All the Light We Cannot See by Anthony Doerr is a historical fiction novel published in
+                            2014. The book is set during World War II and tells the story of two young people, 
+                           Marie-Laure and Werner, whose lives are brought together by the war. Marie-Laure is a blind
+                            French girl who lives in Paris with her father, while Werner is a German orphan who is recruited 
+                           into the Hitler Youth. The two characters' lives intersect when Werner is sent to the same town where
+                            Marie-Laure and her father are living. The book explores themes such as morality, the nature of good 
+                           and evil, and the impact of war on ordinary people. All the Light We Cannot See is a beautifully written 
+                           and thought-provoking novel that has won numerous awards and accolades.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "The Nightingale" by Kristin Hannah:
+                    <div class="sub-content">
+                        <h2>"The Nightingale" by Kristin Hannah:</h2> 
+                        <p>
+                            The Nightingale by Kristin Hannah is a historical novel published in 2015. The book is set in 
+                            France during World War II and follows the lives of two sisters, Vianne and Isabelle, who are 
+                            forced to confront the horrors of war in different ways. Vianne is a wife and mother who must 
+                            learn to survive under Nazi occupation, while Isabelle becomes involved in the French Resistance 
+                            and risks her life to help others. The book explores themes such as love, loss, courage, and the 
+                            power of family. The Nightingale is a poignant and emotional novel that has won numerous awards 
+                            and has been praised for its vivid portrayal of life during wartime.
+                        </p>            
+                    </div>
+                </li>
+                <li>
+                    "The Pillars of the Earth" by Ken Follett
+                    <div class="sub-content">
+                        <h2>"The Pillars of the Earth" by Ken Follett:</h2> 
+                            <p>
+                                The Pillars of the Earth by Ken Follett is a historical novel published in 1989. The book is
+                                set in 12th century England and tells the story of the building of a cathedral in the town of
+                                Kingsbridge. The novel follows the lives of several characters, including the master builder 
+                               Tom, the noblewoman Aliena, and the monk Philip, as they navigate the challenges of building the 
+                               cathedral and overcoming the obstacles that stand in their way. The book explores themes such as 
+                               power, greed, love, and betrayal. The Pillars of the Earth is a sweeping epic that has been praised 
+                               for its rich historical detail and its compelling characters.
+                            </p>
+    
+                    </div>
+                </li>
+                <li>
+                    The Help" by Kathryn Stockett:
+                    <div class="sub-content">
+                        <h2>  "The Help" by Kathryn Stockett:</h2> 
+                        <p>
+                            The Help by Kathryn Stockett is a historical fiction novel published in 2009. The book is set in 1960s
+                            Mississippi and tells the story of three women, Skeeter, Aibileen, and Minny, who form an unlikely friendship
+                            in the face of racism and discrimination. Skeeter is a young white woman who aspires to be a writer and decides
+                            to tell the stories of the African American maids who work for her friends and neighbors. The book explores 
+                           themes such as race, class, and the struggle for social justice. The Help has been praised for its powerful 
+                           storytelling and its compelling characters, and it was adapted into a successful film in 2011.
+                        </p
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>Horror
+            <ul style="background-image: url('../static/images/horror.png');background-size: cover;">
+                <li>
+                    "Frankenstein" by Mary Shelley:
+                    <div class="sub-content">
+                       
+                        <h2>"Frankenstein" by Mary Shelley:</h2>
+                        <p>
+                            "Frankenstein" is a classic novel written by Mary Shelley and
+                            first published in 1818. The novel is a story about Victor Frankenstein, 
+                            a young scientist who is obsessed with creating life. He creates a monster 
+                            from dead human parts, but once the creature comes to life, Victor is horrified
+                             by its appearance and abandons it. The creature, rejected and alone, seeks revenge 
+                            against Victor and those he loves. The novel explores themes such as the dangers of 
+                            ambition and knowledge, the consequences of playing God, and the nature of humanity. 
+                            Through the characters of Victor Frankenstein and his creation, Shelley examines the
+                             role of science in society and the ethics of experimentation
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li> "The Tell-Tale Heart" by Edgar Allan Poe
+                    <div class="sub-content">
+                        <h2> "The Tell-Tale Heart" by Edgar Allan Poe </h2> 
+                        <p>
+                            "The Tell-Tale Heart" is a short story by Edgar Allan Poe, first published in 1843. 
+                            The story is narrated by an unnamed man who is obsessed with an old man's "vulture-like" eye.
+                             The narrator becomes increasingly disturbed by the eye, and eventually decides to kill the
+                             old man and hide his body under the floorboards. However, the sound of the old man's heart
+                             beating becomes louder and louder, and the narrator confesses to the murder. 
+                            The story explores themes of guilt, madness, and the horrors of the human mind.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "The Dunwich Horror" by H.P. Lovecraft 
+                    <div class="sub-content">
+                        <h2>  "The Dunwich Horror" by H.P. Lovecraft </h2> 
+                            <p>
+                                "The Dunwich Horror" is a horror novella by H.P. Lovecraft, first published in 1929.
+                                The story is set in the fictional town of Dunwich, Massachusetts, where a family known
+                                for its occult practices gives birth to a monstrous child. As the child grows older, 
+                               it becomes clear that it is not entirely human and possesses supernatural powers. When
+                                a group of professors from Miskatonic University investigate the situation, they uncover
+                                a plot to summon an ancient and malevolent deity. The story explores themes of cosmic horror, 
+                               the dangers of dabbling in the unknown, and the fear of the unknown.
+                            </p>            
+                    </div>
+                </li>
+                <li>
+                    "The Lottery" by Shirley Jackson
+                    <div class="sub-content">
+                        <h2>"The Lottery" by Shirley Jackson</h2> 
+                            <p>
+                                "The Lottery" is a short story by Shirley Jackson, first published in 1948. 
+                                The story takes place in a small American town that holds an annual lottery to 
+                                determine which member of the community will be stoned to death. The lottery is 
+                                a tradition that the townspeople have followed for generations, and they see it 
+                                as necessary for the community's survival. However, when the lottery falls on a
+                                 particular family, the young wife protests the unfairness of the ritual. 
+                                The story explores themes of tradition, conformity, and the dangers of blindly following societal norms.
+                            </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "The Monkey's Paw" by W.W. Jacobs 
+                    <div class="sub-content">
+                        <h2>"The Monkey's Paw" by W.W. Jacobs </h2> 
+                        <p>
+                            "The Monkey's Paw" is a short story by W.W. Jacobs, first published in 1902. 
+                            The story revolves around a cursed monkey's paw that grants three wishes to
+                             whoever possesses it. When a family receives the paw, they are skeptical of 
+                            its powers but decide to make a wish for a sum of money. However, the wish comes 
+                            with a terrible price, and the family soon regrets their decision. The story explores 
+                            themes of greed, temptation, and the consequences of getting what one wishes for.
+                        </p>
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>Mystery
+            <ul style="background-image: url('../static/images/mystery.png');background-size: cover;">
+                <li>
+                    "The Silence of the Lambs" by Thomas Harris
+                    <div class="sub-content">
+                       
+                        <h2>"The Silence of the Lambs" by Thomas Harris:</h2>
+                        <p>
+                            "The Silence of the Lambs" is a psychological thriller novel by Thomas Harris, 
+                            published in 1988. The novel follows FBI trainee Clarice Starling as she is assigned 
+                            to interview the brilliant psychiatrist and cannibalistic serial killer Dr. Hannibal 
+                            Lecter in order to gather information on another serial killer, Buffalo Bill. As Clarice
+                            delves deeper into the investigation, she finds herself drawn into a dangerous game of 
+                            psychological manipulation with Lecter, who begins to see her as a kindred spirit. The 
+                            novel explores themes of identity, power, and the complexity of human nature. It was 
+                            adapted into a highly successful film in 1991, and has become a classic in the thriller genre.
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"The Girl with the Dragon Tattoo" by Stieg Larsson
+                    <div class="sub-content">
+                        <h2>"The Girl with the Dragon Tattoo" by Stieg Larsson:</h2> 
+                        <p>
+                            "The Girl with the Dragon Tattoo" is a crime thriller novel by Stieg Larsson, published in 2005.
+                            The novel follows Mikael Blomkvist, a journalist who is hired by wealthy industrialist Henrik 
+                           Vanger to investigate the disappearance of his niece, Harriet Vanger, over forty years ago. 
+                           As Mikael delves deeper into the case, he teams up with the enigmatic and socially isolated 
+                           hacker Lisbeth Salander, who has a troubled past and a fierce sense of justice. Together, 
+                           they uncover a dark and twisted family history that reveals the horrific truth behind Harriet's 
+                           disappearance. The novel explores themes of corruption, sexual violence, and the exploitation of 
+                           women in society. It has been adapted into multiple successful films and TV series.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "The Da Vinci Code" by Dan Brown
+                    <div class="sub-content">
+                        <h2>  "The Da Vinci Code" by Dan Brown:</h2> 
+                        <p>
+                            "The Da Vinci Code" is a mystery thriller novel by Dan Brown, published in 2003. 
+                            The novel follows symbologist Robert Langdon as he is drawn into a complex conspiracy 
+                            involving the Holy Grail, the Catholic Church, and a secret society known as the Priory 
+                            of Sion. Together with French cryptologist Sophie Neveu, Langdon races against time to
+                             unravel the clues left by a murdered curator at the Louvre Museum in Paris, and uncover
+                             the truth about the Grail. The novel explores themes of religion, history, and the power of 
+                            symbols. It has been adapted into a highly successful film and has become a cultural phenomenon.
+                            
+                        </p>            
+                    </div>
+                </li>
+                <li>
+                    "Gone Girl" by Gillian Flynn
+                    <div class="sub-content">
+                        <h2> "Gone Girl" by Gillian Flynn:</h2> 
+                            <p>
+                                "Gone Girl" is a psychological thriller novel by Gillian Flynn, published in 2012. 
+                                The novel follows Nick Dunne, whose wife Amy disappears on their fifth wedding anniversary. 
+                                As the investigation unfolds, Nick becomes the prime suspect in her disappearance, and the
+                                 media frenzy surrounding the case begins to spiral out of control. However, as the story 
+                                progresses, it becomes clear that there is much more to the situation than meets the eye, 
+                                and the novel takes several unexpected twists and turns. The novel explores themes of marriage, 
+                                identity, and the dark side of human nature. It was adapted into a successful film in 2014.
+                            </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "The Adventures of Sherlock Holmes" by Arthur Conan Doyle
+                    <div class="sub-content">
+                        <h2> "The Adventures of Sherlock Holmes" by Arthur Conan Doyle:</h2> 
+                        <p>
+                            "The Adventures of Sherlock Holmes" is a collection of short stories featuring the iconic
+                            detective Sherlock Holmes, written by Arthur Conan Doyle and first published in 1892. The 
+                           stories follow the adventures of Holmes and his trusted companion Dr. John Watson as they 
+                           solve a variety of cases, ranging from theft and fraud to murder and espionage. The stories
+                            are known for their intricate plot twists, clever deductions, and vivid characterizations, 
+                           and have had a lasting impact on the mystery genre. The collection includes some of the most
+                            famous Holmes stories, such as "A Scandal in Bohemia" and "The Adventure of the Speckled Band".
+                        </p>
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>Poetry
+            <ul style="background-image: url('../static/images/poetry.png');background-size: cover;">
+                <li>
+                    "The Road Not Taken" by Robert Frost
+                    <div class="sub-content">
+                       
+                        <h2>"The Road Not Taken" by Robert Frost:</h2>
+                        <p>
+                            Two roads diverged in a yellow wood,<br>
+                            And sorry I could not travel both <br>
+                            And be one traveler, long I stood <br>
+                            And looked down one as far as I could <br>
+                            To where it bent in the undergrowth; <br> <br>
+
+                            Then took the other, as just as fair, <br>
+                            And having perhaps the better claim, <br>
+                            Because it was grassy and wanted wear; <br>
+                            Though as for that the passing there <br>
+                            Had worn them really about the same, <br>
+                            
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"I Wandered Lonely as a Cloud" by William Wordsworth
+                    <div class="sub-content">
+                        <h2> "I Wandered Lonely as a Cloud" by William Wordsworth:</h2> 
+                        <p>
+                            I wandered lonely as a cloud <br>
+                            That floats on high o'er vales and hills, <br>
+                            When all at once I saw a crowd, <br>
+                            A host, of golden daffodils; <br>
+                            Beside the lake, beneath the trees, <br>
+                            Fluttering and dancing in the breeze. <br><br>
+                            
+                            Continuous as the stars that shine <br>
+                            And twinkle on the Milky Way, <br>
+                            They stretched in never-ending line <br>
+                            Along the margin of a bay: <br>
+                            Ten thousand saw I at a glance, <br>
+                            Tossing their heads in sprightly dance. <br>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "Ode to a Nightingale" by John Keats
+                    <div class="sub-content">
+                        <h2>  "Ode to a Nightingale" by John Keats:</h2> 
+                        <p>
+                          
+                            My heart aches, and a drowsy numbness pains <br>
+                            My sense, as though of hemlock I had drunk, <br>
+                            Or emptied some dull opiate to the drains <br>
+                            One minute past, and Lethe-wards had sunk: <br>
+                            'Tis not through envy of thy happy lot, <br>
+                            But being too happy in thine happiness <br> <br>
+                            That thou, light-winged Dryad of the trees <br>
+                            In some melodious plot <br>
+                            Of beechen green, and shadows numberless, <br>
+                            Singest of summer in full-throated ease. <br>
+                        </p>           
+                    </div>
+                </li>
+                <li>
+                    "Annabel Lee" by Edgar Allan Poe
+                    <div class="sub-content">
+                        <h2>  "Annabel Lee" by Edgar Allan Poe:</h2> 
+                        <p>
+                            It was many and many a year ago, <br>
+                            In a kingdom by the sea, <br>
+                            That a maiden there lived whom you may know <br>
+                            By the name of Annabel Lee; <br>
+                            And this maiden she lived with no other thought <br>
+                            Than to love and be loved by me. <br> <br>
+                            
+                            I was a child and she was a child, <br>
+                            In this kingdom by the sea; <br>
+                            But we loved with a love that was more than love, <br>
+                            I and my Annabel Lee; <br>
+                            With a love that the winged seraphs of heaven <br>
+                            Coveted her and me. <br>
+                        </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "Do Not Go Gentle into That Good Night" by Dylan Thomas
+                    <div class="sub-content">
+                        <h2>"Do Not Go Gentle into That Good Night" by Dylan Thomas:</h2> 
+                        <p>
+                            Do not go gentle into that good night, <br>
+                            Old age should burn and rave at close of day; <br>
+                            Rage, rage against the dying of the light. <br> <br>
+                            
+                            Though wise men at their end know dark is right, <br>
+                            Because their words had forked no lightning they <br>
+                            Do not go gentle into that good night. <br>
+                            
+                            Good men, the last wave by, crying how bright <br>
+                            Their frail deeds might have danced in a green bay, <br>
+                            Rage, rage against the dying of the light. <br>
+                        </p>
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>Romance
+            <ul style="background-image: url('../static/images/romance.png');background-size: cover;">
+                <li>
+                    "Pride and Prejudice" by Jane Austen
+                    <div class="sub-content">
+                       
+                        <h2>"Pride and Prejudice" by Jane Austen:</h2>
+                        <p>
+                            "Pride and Prejudice" is a novel that takes place in early 19th century England, 
+                            and follows the story of Elizabeth Bennet and her family. The book is a social 
+                            commentary on the customs and traditions of the time, and deals with issues such 
+                            as marriage, gender roles, and social status. Elizabeth is the second eldest of 
+                            five daughters in a family that is not particularly wealthy, and her mother is 
+                            obsessed with finding suitable husbands for all of them. When Mr. Bingley, a wealthy 
+                            gentleman, moves into the neighborhood, Mrs. Bennet is thrilled at the possibility of 
+                            one of her daughters marrying him. Elizabeth, however, is initially put off by Mr. 
+                            Bingley's friend Mr. Darcy, who she sees as arrogant and prideful. As the story unfolds,
+                             Elizabeth's opinion of Mr. Darcy changes as she discovers more about him, and the 
+                            two eventually come to understand and appreciate each other.
+                            
+                         
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"The Notebook" by Nicholas Sparks
+                    <div class="sub-content">
+                        <h2>"The Notebook" by Nicholas Sparks:</h2> 
+                        <p>
+                            "The Notebook" is a romance novel that tells the story of Noah Calhoun and Allie Nelson,
+                            two young people who fall in love in the 1940s. The book is set in a small town in North 
+                            Carolina and is told from the perspective of an elderly man, who is reading a story from 
+                            a notebook to a woman in a nursing home. The story in the notebook is about Noah and Allie,
+                             who come from different backgrounds but fall deeply in love. Their relationship is challenged
+                             by their different social statuses and by the outbreak of World War II, which separates them 
+                            for years. When they are finally reunited, Allie is engaged to another man, and the two must 
+                            decide whether to follow their hearts or their obligations.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "Outlander" by Diana Gabaldon
+                    <div class="sub-content">
+                        <h2> "Outlander" by Diana Gabaldon:</h2> 
+                        <p>
+                            "Outlander" is a historical fiction novel that follows the story of Claire Randall, 
+                            a married World War II nurse who is transported back in time to 18th century Scotland. 
+                            Claire finds herself caught up in the Jacobite uprising, and falls in love with a Scottish 
+                            warrior named Jamie Fraser. The book explores themes of love, loyalty, and the consequences 
+                            of actions. As Claire becomes more involved in the events of the time, she must navigate the
+                             dangerous political climate while also trying to find a way back to her own time.
+                            
+                        </p>           
+                    </div>
+                </li>
+                <li>
+                    "The Time Traveler's Wife" by Audrey Niffenegger
+                    <div class="sub-content">
+                        <h2> "The Time Traveler's Wife" by Audrey Niffenegger:</h2> 
+                        <p>
+                            "The Time Traveler's Wife" is a science fiction romance novel that follows the story of Henry 
+                            DeTamble, a man with a genetic disorder that causes him to time travel unpredictably, and his wife, 
+                            Clare Abshire. The book is told from both Henry and Clare's perspectives and jumps back and forth in
+                             time, as Henry time travels to different points in his life and meets Clare at different ages. 
+                            The book explores themes of love, fate, and the fragility of life. As Henry and Clare navigate 
+                            their unique relationship, they must confront the challenges and consequences of Henry's time traveling.
+                        </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "Me Before You" by Jojo Moyes
+                    <div class="sub-content">
+                        <h2>"Me Before You" by Jojo Moyes:</h2> 
+                            <p>
+                                "Me Before You" is a romance novel that follows the story of Louisa Clark, a young woman
+                                who takes a job as a caregiver for Will Traynor, a wealthy young man who was left paralyzed 
+                                after a motorcycle accident. The book deals with themes of disability, love, and the value of 
+                                life. As Louisa gets to know Will, she realizes that he is deeply unhappy and has made the 
+                                decision to end his life. Louisa tries to change his mind and show him that life is worth 
+                                living, but ultimately must come to terms with his decision.
+                            </p> 
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>ScienceFiction
+            <ul style="background-image: url('../static/images/sciencefiction.png');background-size: cover;">
+                <li>
+                    "The Hitchhiker's Guide to the Galaxy" by Douglas Adams
+                    <div class="sub-content">
+                       
+                        <h2> "The Hitchhiker's Guide to the Galaxy" by Douglas Adams:</h2>
+                        <p>
+                            "The Hitchhiker's Guide to the Galaxy" is a science fiction novel
+                            that follows the adventures of an unwitting human, Arthur Dent, 
+                           and his alien friend Ford Prefect as they travel through space. 
+                           The book is a humorous take on the science fiction genre and explores 
+                           themes such as the meaning of life and the human condition. The story
+                           begins with Arthur's house being demolished to make way for a bypass, 
+                           and Ford revealing that he is not from Earth and that the planet is about
+                            to be destroyed to make way for a hyperspace bypass. The two hitch a ride
+                            on a spaceship, and the story follows their travels through space as they 
+                           encounter various strange and comical creatures.
+                            
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"Ender's Game" by Orson Scott Card
+                    <div class="sub-content">
+                        <h2> "Ender's Game" by Orson Scott Card:</h2> 
+                        <p>
+                            "Ender's Game" is a science fiction novel set in the future, where Earth is
+                            under threat from an alien race known as the Formics. The story follows 
+                           Ender Wiggin, a young boy who is taken to a battle school where he trains 
+                           to become a commander in the war against the Formics. The book explores themes 
+                           of leadership, morality, and the consequences of actions. As Ender trains and 
+                           learns how to fight the Formics, he begins to question the morality of his actions
+                            and the true nature of the war he is fighting.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    "Foundation" by Isaac Asimov
+                    <div class="sub-content">
+                        <h2>"Foundation" by Isaac Asimov:</h2> 
+                        <p>
+                            "Foundation" is a science fiction novel that takes place in a distant future, 
+                            where a mathematician named Hari Seldon has developed a science called psychohistory 
+                            that can predict the future of large populations. The story follows the Foundation, 
+                            a group of scientists and engineers who are tasked with preserving the knowledge of the
+                             human race in the face of the collapse of a vast interstellar empire. The book explores 
+                            themes such as the nature of power and the evolution of civilizations. As the Foundation 
+                            struggles to survive in a hostile galaxy, they must navigate political intrigue and warfare
+                             to achieve their goals.
+                        </p>           
+                    </div>
+                </li>
+                <li>
+                    "Brave New World" by Aldous Huxley
+                    <div class="sub-content">
+                        <h2>"Brave New World" by Aldous Huxley:</h2> 
+                        <p>
+                         
+"Brave New World" is a dystopian novel that takes place in a future society where citizens 
+are engineered and conditioned from birth to conform to a rigid social hierarchy. The book 
+explores themes such as freedom, individuality, and the dangers of technology. The story follows 
+Bernard Marx, an Alpha Plus who is dissatisfied with the society he lives in, and John the Savage,
+ a man who was raised outside of the engineered society and struggles to fit in. As the two navigate 
+the complexities of their society, they must confront the dark consequences of conformity and control.
+                        </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "The Martian" by Andy Weir
+                    <div class="sub-content">
+                        <h2>"The Martian" by Andy Weir:</h2> 
+                                <p>
+                                    "The Martian" is a science fiction novel written by Andy Weir, 
+                                    first published in 2011. The story follows astronaut Mark Watney, 
+                                    who is left stranded on Mars after his crewmates believe he died during an emergency evacuation.
+    
+                                    Watney must find a way to survive on the harsh and unforgiving planet, 
+                                    using his knowledge of botany, engineering, and problem-solving skills. 
+                                    He begins to grow his own food, make repairs to his equipment, and communicate 
+                                    with NASA back on Earth.
+                                    
+                                    Meanwhile, NASA discovers that Watney is still alive and begins a rescue mission. 
+                                    The novel follows both Watney's struggles to survive on Mars and the efforts of the 
+                                    NASA team to bring him back to Earth safely.
+                                    
+                                    The book is known for its humor and suspenseful plot, as well as its scientifically 
+                                    accurate portrayal of life on Mars. It was adapted into a successful film in 2015, 
+                                    starring Matt Damon as Mark Watney.
+                                </p>
+                </li>
+               
+            </ul>
+        </li>
+        <br>
+        <li>SelpHelp
+            <ul style="background-image: url('../static/images/selfhelp.png');background-size: cover;">
+                <li>
+                    "The 7 Habits of Highly Effective People" by Stephen Covey
+                    <div class="sub-content">
+                       
+                        <h2>"The 7 Habits of Highly Effective People" by Stephen Covey:</h2>
+                        <p>
+                            "The 7 Habits of Highly Effective People" is a self-help book that provides
+                            readers with a step-by-step guide to becoming more productive, effective, 
+                           and successful in both their personal and professional lives. The book is based
+                            on the premise that by adopting seven specific habits, individuals can improve their 
+                           overall well-being and achieve their goals. The habits discussed in the book include 
+                           being proactive, beginning with the end in mind, putting first things first, thinking 
+                           win-win, seeking first to understand then to be understood, synergizing, and sharpening
+                            the saw. Covey argues that by consistently practicing these habits, individuals can 
+                           improve their communication skills, build stronger relationships, and become more effective leaders.
+                        </p>
+                                     
+                    </div>
+                </li>
+                <li>"The Power of Now" by Eckhart Tolle
+                    <div class="sub-content">
+                        <h2>"The Power of Now" by Eckhart Tolle:</h2> 
+                        <p>
+                            "The Power of Now" is a spiritual guidebook that aims to help readers find peace 
+and fulfillment by living in the present moment. The book argues that most people are 
+caught up in thoughts about the past or the future, which creates stress and anxiety,
+ and prevents them from fully experiencing the present moment. Tolle encourages readers 
+to focus on the present moment and to become more aware of their thoughts and emotions.
+ By doing so, he argues, individuals can reduce their stress and anxiety, improve their 
+relationships, and find greater meaning and purpose in life.
+                        </p>
+                        <h2>"
+                    </div>
+                </li>
+                <li>
+                    "Man's Search for Meaning" by Viktor Frankl
+                    <div class="sub-content">
+                        <h2>"Man's Search for Meaning" by Viktor Frankl:</h2> 
+                        <p>
+                            "Man's Search for Meaning" is a memoir and philosophical treatise that explores the human search for meaning and purpose in life. The book is based on the author's experiences as a prisoner in Nazi concentration camps during World War II, where he witnessed the worst of human suffering and death. Despite his experiences, Frankl was able to find meaning and purpose in his life, which he argues is essential for human survival. The book explores the idea that humans are motivated by a search for meaning, and that it is possible to find meaning even in the most difficult of circumstances. Frankl's message is one of hope, resilience, and the power of the human spirit.
+                        </p>           
+                    </div>
+                </li>
+                <li>
+                    "The Art of Happiness" by Dalai Lama XIV and Howard C. Cutler
+                    <div class="sub-content">
+                        <h2>"The Art of Happiness" by Dalai Lama XIV and Howard C. Cutler:</h2> 
+                        <p>
+                            "The Art of Happiness" is a self-help book that combines the teachings of the Dalai Lama with
+ the insights of Western psychology. The book aims to provide readers with practical advice on 
+how to cultivate happiness in their lives. The Dalai Lama argues that happiness is a state of 
+mind that can be cultivated through meditation, compassion, and gratitude. He also emphasizes
+ the importance of developing strong relationships with others and living a life of purpose and 
+meaning. The book provides readers with practical exercises and tips for cultivating happiness, 
+as well as anecdotes and stories from the Dalai Lama's life and teachings.
+
+                        </p>
+    
+                    </div>
+                </li>
+                <li>
+                    "Think and Grow Rich" by Napoleon Hill
+                    <div class="sub-content">
+                        <h2> "Think and Grow Rich" by Napoleon Hill:</h2> 
+            <p>
+                "Think and Grow Rich" is a self-help book that provides readers with a roadmap to achieving 
+financial success and abundance. The book is based on the premise that success is a mindset that 
+can be cultivated through positive thinking, goal-setting, and persistence. Hill argues that the 
+key to success is to focus on a specific goal and to develop a burning desire to achieve it. 
+He also emphasizes the importance of developing a positive mental attitude, surrounding oneself
+ with positive influences, and taking action towards one's goals. The book provides readers with 
+practical advice and insights from some of the most successful people in history, including Andrew Carnegie and Henry Ford.
+                </li>
+               
+            </ul>
+        </li>
+    
+    </ul>
+
+
+
+
+  </body>
+  <script src="../static/js/script.js"></script>
